@@ -1,4 +1,4 @@
-name: cryosegnet
+name: cryovista
 channels:
   - pytorch
   - nvidia
@@ -123,4 +123,5 @@ dependencies:
       - six==1.16.0
       - smmap==5.0.0
       - tqdm==4.64.1
+      - timm==0.9.16
       - wandb==0.13.10

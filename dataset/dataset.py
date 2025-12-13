@@ -54,6 +54,8 @@ class CryoEMDataset(Dataset):
         
         image = image/255.0
         mask = mask/255.0
+        
+        mask = (mask > 0.5).float()
 
         return (image, mask)
     
@@ -82,5 +84,7 @@ class CryoEMFineTuneDataset(Dataset):
         
         image = image/255.0
         mask = mask/255.0
+        
+        mask = (mask > 0.5).float()
 
         return (image, mask)

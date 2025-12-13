@@ -1,0 +1,19 @@
+# Python缓存
+__pycache__/
+
+# 编辑器配置
+.vscode/
+
+# 数据集（体积大）
+dataset/__pycache__
+MAE_pretrain/
+models/__pycache__
+test_dataset/
+train_dataset/
+utils/__pycache__
+
+# 输出文件
+output/
+
+# 预训练模型（若体积大）
+pretrained_models/
